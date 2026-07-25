@@ -4,10 +4,32 @@ import { Menu } from 'lucide-react';
 import Image from 'next/image';
 import Link from 'next/link'
 import { useState } from 'react';
+import { usePathname } from "next/navigation";
 
 export default function Header() {
 
   const [open, setOpen] = useState(false);
+
+  const pathname = usePathname();
+
+  const links = [
+    {
+      href: "/",
+      label: "Inicio",
+    },
+    {
+      href: "/our-work",
+      label: "Soluciones",
+    },
+    {
+      href: "/benefits",
+      label: "Beneficios",
+    },
+    {
+      href: "/portfolio",
+      label: "Portafolio",
+    },
+  ];
 
   return (
     <header
@@ -40,10 +62,20 @@ export default function Header() {
         </Link>
 
         <nav className="hidden md:flex gap-8">
-          <Link href="/" className="text-lg font-medium text-[#FFFFFF] hover:text-[#FF69EA] transition-colors duration-300">Inicio</Link>
-          <Link href="/our-work" className="text-lg font-medium text-[#FFFFFF] hover:text-[#FF69EA] transition-colors duration-300">Soluciones</Link>
-          <Link href="/benefits" className="text-lg font-medium text-[#FFFFFF] hover:text-[#FF69EA] transition-colors duration-300">Beneficios</Link>
-          <Link href="/portfolio" className="text-lg font-medium text-[#FFFFFF] hover:text-[#FF69EA] transition-colors duration-300">Portafolio</Link>
+          {links.map((link) => {
+            const isActive = pathname === link.href;
+
+            return (
+              <Link
+                key={link.href}
+                href={link.href}
+                className={`relative text-lg font-medium transition-colors duration-300 ${isActive ? "text-[#FF69EA]" : "text-[#FFFFFF]"} after:absolute after:-bottom-2 after:left-0 after:h-[2px] after:bg-[#FF69EA] after:transition-all after:duration-300 ${isActive ? "after:w-full" : "after:w-0 hover:after:w-full"}
+                `}
+              >
+                {link.label}
+              </Link>
+            );
+          })}
         </nav>
 
         <div className="hidden md:block hover:scale-105 transition-all duration-300 ease-out">
