@@ -150,18 +150,14 @@ export default function Hero() {
                 behavior: "smooth",
               });
             }}
-            className="group flex flex-col items-center gap-3 text-sm text-white/50 transition-colors duration-300 hover:text-white"
+            className="cursor-pointer group flex flex-col items-center gap-3 text-sm text-white/50 transition-colors duration-300 hover:text-white"
           >
             <MousePointerClick
               size={18}
               strokeWidth={1.5}
               className="text-[#FF69EA] animate-bounce transition-transform duration-500 ease-out group-hover:translate-y-1"
             />
-
-            <span>
-              Descubre más
-            </span>
-
+            
             <div
               className="h-12 w-px bg-gradient-to-b from-[#FF69EA] to-transparent"
             />

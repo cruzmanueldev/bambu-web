@@ -200,8 +200,8 @@ export default function Benefits() {
             absolute
             -left-48
             top-1/4
-            h-[600px]
-            w-[600px]
+            h-[300px]
+            w-[300px]
             rounded-full
             bg-[#903BB5]/20
             blur-[150px]
@@ -213,9 +213,9 @@ export default function Benefits() {
             benefits-orb-orange
             absolute
             -right-48
-            bottom-0
-            h-[550px]
-            w-[550px]
+            bottom-60
+            h-[350px]
+            w-[350px]
             rounded-full
             bg-[#F78639]/15
             blur-[150px]
@@ -514,79 +514,6 @@ export default function Benefits() {
 
         </div>
       </section>
-
-      <section className="benefits-cta relative px-6 py-40">
-
-        <div className="mx-auto max-w-5xl text-center">
-
-          <h2 className="mt-8 text-5xl font-bold leading-tight md:text-7xl">
-
-            Tu crecimiento
-            <br />
-
-            <span
-              className="
-                bg-gradient-to-r
-                from-[#FF69EA]
-                via-[#D54BF7]
-                to-[#F78639]
-                bg-clip-text
-                text-transparent
-              "
-            >
-              empieza aquí.
-            </span>
-
-          </h2>
-
-          <p className="mx-auto mt-8 max-w-xl text-lg leading-relaxed text-white">
-            Si estás listo para llevar tu negocio al siguiente nivel,
-            conversemos sobre lo que podemos construir juntos.
-          </p>
-
-          <a
-            href="/contact-us"
-            className="
-              group
-              mx-auto
-              mt-10
-              flex
-              w-fit
-              items-center
-              gap-0
-              rounded-full
-              bg-[#D54BF7]
-              px-7
-              py-3
-              text-lg
-              font-medium
-              text-white
-              transition-all
-              duration-300
-              hover:scale-105
-              hover:gap-3
-              hover:bg-[#FF69EA]
-            "
-          >
-            Pide asesoría gratuita
-
-            <ArrowRight
-              size={20}
-              className="
-                w-0
-                opacity-0
-                transition-all
-                duration-300
-                group-hover:w-5
-                group-hover:opacity-100
-              "
-            />
-          </a>
-
-        </div>
-
-      </section>
-
     </main>
   );
 }

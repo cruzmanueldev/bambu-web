@@ -8,7 +8,7 @@ import {
   ArrowRight,
   ArrowUpRight,
 } from "lucide-react";
-import Link from "next/link";
+
 gsap.registerPlugin(ScrollTrigger);
 
 const projects = [
@@ -18,7 +18,7 @@ const projects = [
     category: "Contenido & Producción",
     description:
       "Creamos piezas audiovisuales que convierten ideas en historias capaces de conectar con tu audiencia.",
-    image: "/images/section-1.jpg",
+    image: "/images/section-1.webp",
     tags: ["Video", "Fotografía", "Reels"],
   },
   {
@@ -27,7 +27,7 @@ const projects = [
     category: "Branding",
     description:
       "Construimos identidades visuales que hacen que tu negocio sea reconocible, memorable y diferente.",
-    image: "/images/section-2.jpg",
+    image: "/images/section-2.webp",
     tags: ["Branding", "Diseño", "Identidad"],
   },
   {
@@ -36,7 +36,7 @@ const projects = [
     category: "Social Media",
     description:
       "Diseñamos contenido pensado para generar conversación, comunidad y crecimiento alrededor de tu marca.",
-    image: "/images/section-3.jpg",
+    image: "/images/section-3.webp",
     tags: ["Instagram", "TikTok", "Contenido"],
   },
   {
@@ -45,7 +45,7 @@ const projects = [
     category: "Marketing Digital",
     description:
       "Convertimos objetivos de negocio en campañas digitales con conceptos creativos y estrategia.",
-    image: "/images/section-4.jpg",
+    image: "/images/section-4.webp",
     tags: ["Ads", "Campañas", "Estrategia"],
   },
   {
@@ -54,7 +54,7 @@ const projects = [
     category: "Diseño Gráfico",
     description:
       "Diseñamos piezas visuales que transmiten el valor de tu negocio desde el primer vistazo.",
-    image: "/images/section-5.jpg",
+    image: "/images/section-5.webp",
     tags: ["Diseño", "Creatividad", "Digital"],
   },
   {
@@ -63,7 +63,7 @@ const projects = [
     category: "Estrategia",
     description:
       "Analizamos tu negocio y diseñamos estrategias personalizadas para llevarlo al siguiente nivel.",
-    image: "/images/section-1.jpg",
+    image: "/images/section-1.webp",
     tags: ["Estrategia", "Marketing", "Growth"],
   },
 ];
@@ -450,67 +450,6 @@ export default function Portfolio() {
               </article>
             );
           })}
-
-        </div>
-      </section>
-
-      <section className="portfolio-cta relative overflow-hidden px-6 py-40">
-
-        <div
-          className="
-            absolute
-            left-1/2
-            top-1/2
-            h-[200px]
-            w-[800px]
-            -translate-x-1/2
-            -translate-y-1/2
-            rounded-full
-            bg-[#903BB5]/20
-            blur-[140px]
-          "
-        />
-
-        <div className="relative z-10 mx-auto max-w-5xl text-center">
-
-          <span className="text-sm uppercase tracking-[0.35em] text-[#FF69EA]">
-            ¿Tienes una idea?
-          </span>
-
-          <h2 className="mt-6 text-5xl font-bold leading-tight md:text-7xl">
-            Hagamos algo
-            <br />
-
-            <span
-              className="
-                bg-gradient-to-r
-                from-[#FF69EA]
-                via-[#D54BF7]
-                to-[#903BB5]
-                bg-clip-text
-                text-transparent
-              "
-            >
-              increíble juntos.
-            </span>
-          </h2>
-
-          <p className="mx-auto mt-8 max-w-xl text-lg text-[#FFFFFF]">
-            Cuéntanos sobre tu negocio y encontremos juntos la estrategia adecuada para hacerlo crecer.
-          </p>
-
-          <div className="flex justify-center mt-4">
-            <Link href="/contact-us" className="group">
-              <button className="bg-[#D54BF7] flex justify-center items-center text-center text-[#FFFFFF] px-6 py-2 rounded-full text-lg font-medium cursor-pointer whitespace-nowrap">
-                <div>Pide una asesoría gratuita</div>
-                <ArrowRight
-                  size={20}
-                  strokeWidth={2}
-                  className="w-0 group-hover:ml-2 opacity-0 transition-all duration-300 group-hover:w-5 group-hover:opacity-100"
-                />
-              </button>
-            </Link>
-          </div>
 
         </div>
       </section>
