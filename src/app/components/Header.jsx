@@ -42,8 +42,8 @@ export default function Header() {
         <nav className="hidden md:flex gap-8">
           <Link href="/" className="text-lg font-medium text-[#FFFFFF] hover:text-[#FF69EA] transition-colors duration-300">Inicio</Link>
           <Link href="/our-work" className="text-lg font-medium text-[#FFFFFF] hover:text-[#FF69EA] transition-colors duration-300">Soluciones</Link>
-          <Link href="/" className="text-lg font-medium text-[#FFFFFF] hover:text-[#FF69EA] transition-colors duration-300">Beneficios</Link>
-          <Link href="/" className="text-lg font-medium text-[#FFFFFF] hover:text-[#FF69EA] transition-colors duration-300">Portafolio</Link>
+          <Link href="/benefits" className="text-lg font-medium text-[#FFFFFF] hover:text-[#FF69EA] transition-colors duration-300">Beneficios</Link>
+          <Link href="/portfolio" className="text-lg font-medium text-[#FFFFFF] hover:text-[#FF69EA] transition-colors duration-300">Portafolio</Link>
         </nav>
 
         <div className="hidden md:block hover:scale-105 transition-all duration-300 ease-out">
@@ -65,8 +65,8 @@ export default function Header() {
         <div className="md:hidden flex flex-col gap-4 px-4 pb-4">
           <Link href="/" className="text-lg font-medium text-[#FFFFFF] hover:text-[#FF69EA] transition-colors duration-300">Inicio</Link>
           <Link href="/our-work" className="text-lg font-medium text-[#FFFFFF] hover:text-[#FF69EA] transition-colors duration-300">Soluciones</Link>
-          <Link href="/" className="text-lg font-medium text-[#FFFFFF] hover:text-[#FF69EA] transition-colors duration-300">Beneficios</Link>
-          <Link href="/" className="text-lg font-medium text-[#FFFFFF] hover:text-[#FF69EA] transition-colors duration-300">Portafolio</Link>
+          <Link href="/benefits" className="text-lg font-medium text-[#FFFFFF] hover:text-[#FF69EA] transition-colors duration-300">Beneficios</Link>
+          <Link href="/portfolio" className="text-lg font-medium text-[#FFFFFF] hover:text-[#FF69EA] transition-colors duration-300">Portafolio</Link>
           <Link
             href="/contact-us"
             className="bg-[#D54BF7] text-center text-[#FFFFFF] px-6 py-2 rounded-full text-lg font-medium"
