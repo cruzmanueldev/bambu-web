@@ -1,16 +1,16 @@
 import Image from 'next/image';
 
-import Design from '@/assets/images/design.jpg'
+// import Design from '@/assets/images/design.jpg'
 
 export default function Visibility() {
   return (
     <div className='w-[90%] xl:w-[60%] mx-auto py-24 flex flex-col xl:flex-row xl:justify-between gap-1 md:gap-2 xl:gap-16'>
 
       <div className='w-[95%] xl:w-[50%] mx-auto'>
-        <Image
+        {/* <Image
           src={Design}
           className='rounded-xl'
-        />
+        /> */}
       </div>
 
       <div className='w-[95%] xl:w-[50%] mx-2 flex justify-between flex-col py-6'>
