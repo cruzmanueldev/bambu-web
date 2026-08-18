@@ -9,7 +9,7 @@ import { ArrowRight, Plus } from "lucide-react";
 gsap.registerPlugin(ScrollTrigger);
 
 export default function About() {
-  
+
   useGSAP(() => {
     const ctx = gsap.context(() => {
       const tl = gsap.timeline({
@@ -97,9 +97,6 @@ export default function About() {
             xl:text-8xl
           "
         >
-          No solo hacemos
-          <br />
-
           <span
             className="
               bg-gradient-to-r
@@ -110,21 +107,18 @@ export default function About() {
               text-transparent
             "
           >
-            marketing.
+            Tú decides
+            <br />
           </span>
-
+          hasta dónde quieres llegar
           <br />
-
-          Hacemos que tu marca
-          <br />
-
-          <span className="text-[#CBD5E1]">
-            avance.
-          </span>
         </h2>
 
         {/* Descripción */}
         <div className="about-description mt-10 flex max-w-3xl flex-col gap-6">
+          <p className="text-lg leading-relaxed text-[#CBD5E1] md:text-xl">
+            Desde el estudio de viabilidad hasta la captación de clientes.
+          </p>
           <p className="text-lg leading-relaxed text-[#CBD5E1] md:text-xl">
             Somos una agencia de marketing que ayuda a pequeñas, medianas y
             grandes empresas a{" "}
@@ -140,7 +134,7 @@ export default function About() {
           </p>
         </div>
 
-        <div className="mt-14 grid grid-cols-1 gap-4 md:grid-cols-3">
+        <div className="mt-14 grid grid-cols-1 gap-4 md:grid-cols-4">
 
           <div
             className="
@@ -178,12 +172,11 @@ export default function About() {
             </div>
 
             <h3 className="text-xl font-semibold text-white">
-              Estrategia
+              Nos cuentas tu idea
             </h3>
 
             <p className="mt-3 text-sm leading-relaxed text-[#94A3B8]">
-              Analizamos tu negocio y construimos estrategias enfocadas en
-              objetivos reales.
+              Conocemos tu proyecto, objetivos y situación.
             </p>
           </div>
 
@@ -223,12 +216,11 @@ export default function About() {
             </div>
 
             <h3 className="text-xl font-semibold text-white">
-              Contenido
+              Analizamos
             </h3>
 
             <p className="mt-3 text-sm leading-relaxed text-[#94A3B8]">
-              Creamos contenido visual que comunica, conecta y convierte
-              visitantes en clientes.
+              Estudiamos mercado, competencia, clientes y viabilidad económica.
             </p>
           </div>
 
@@ -268,12 +260,55 @@ export default function About() {
             </div>
 
             <h3 className="text-xl font-semibold text-white">
-              Crecimiento
+              Te presentamos las conclusiones
             </h3>
 
             <p className="mt-3 text-sm leading-relaxed text-[#94A3B8]">
-              Medimos resultados, optimizamos y buscamos nuevas oportunidades
-              para seguir creciendo.
+              Te entregamos el estudio y te explicamos nuestras conclusiones y recomendaciones.
+            </p>
+          </div>
+
+          <div
+            className="
+              about-card
+              group
+              relative
+              overflow-hidden
+              rounded-2xl
+              border
+              border-white/10
+              bg-white/[0.03]
+              p-6
+              transition-all
+              duration-500
+              hover:-translate-y-1
+              hover:border-[#F79748]/30
+              hover:bg-white/[0.05]
+            "
+          >
+            <div className="mb-8 flex items-center justify-between">
+              <span className="text-sm text-[#F79748]">
+                04
+              </span>
+
+              <Plus
+                size={18}
+                className="
+                  text-white/30
+                  transition-transform
+                  duration-500
+                  group-hover:rotate-90
+                  group-hover:text-[#F79748]
+                "
+              />
+            </div>
+
+            <h3 className="text-xl font-semibold text-white">
+              Si quieres, seguimos contigo
+            </h3>
+
+            <p className="mt-3 text-sm leading-relaxed text-[#94A3B8]">
+              Podemos ayudarte a desarrollar la web, crear la estrategia de marketing y poner en marcha el proyecto. Esto último es importante porque deja claro que el marketing es opcional.
             </p>
           </div>
 

@@ -15,8 +15,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Orbita",
-  description: "Orbita marketing",
+  title: "Up Studio",
+  description: "Up Studio Marketing",
 };
 
 export default function RootLayout({ children }) {

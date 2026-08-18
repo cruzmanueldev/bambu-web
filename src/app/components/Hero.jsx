@@ -105,16 +105,12 @@ export default function Hero() {
         "
       />
 
-      <div className="relative z-10 max-w-6xl px-6 text-center">
+      <div className="relative z-10 max-w-6xl px-6">
 
-        <h1 className="hero-title text-5xl font-bold leading-[1.05] tracking-tight text-white md:text-7xl lg:text-8xl">
-
-          <span className="hero-word inline-block">
-            Te ayudamos
-          </span>{" "}
+        <h1 className="hero-title text-6xl font-bold leading-[1.05] tracking-tight text-white md:text-8xl lg:text-[9rem]">
 
           <span className="hero-word inline-block">
-            a impulsar
+            ¿Tienes una idea de negocio?
           </span>{" "}
 
           <span
@@ -129,12 +125,9 @@ export default function Hero() {
               text-transparent
             "
           >
-            el crecimiento
+            Empieza ya
           </span>{" "}
 
-          <span className="hero-word inline-block">
-            de tu negocio
-          </span>
         </h1>
 
         <p className="hero-subtitle mx-auto mt-8 max-w-2xl text-lg leading-relaxed text-[#CBD5E1] md:text-xl">
@@ -157,7 +150,7 @@ export default function Hero() {
               strokeWidth={1.5}
               className="text-[#FF69EA] animate-bounce transition-transform duration-500 ease-out group-hover:translate-y-1"
             />
-            
+
             <div
               className="h-12 w-px bg-gradient-to-b from-[#FF69EA] to-transparent"
             />

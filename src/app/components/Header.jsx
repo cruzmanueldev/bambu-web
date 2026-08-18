@@ -52,11 +52,11 @@ export default function Header() {
         <Link
           href="/"
           onClick={closeMenu}
-          className="group relative flex h-14 w-[110px] items-center"
+          className="group relative flex h-10 w-[110px] items-center"
         >
           <Image
             src="/images/logo-1.png"
-            alt="ORBITA"
+            alt="Up Studio"
             width={80}
             height={30}
             priority
@@ -71,7 +71,7 @@ export default function Header() {
 
           <Image
             src="/images/logo-2.png"
-            alt="ORBITA"
+            alt="Up Studio"
             width={80}
             height={30}
             priority

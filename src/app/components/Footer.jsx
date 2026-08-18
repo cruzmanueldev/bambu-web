@@ -93,7 +93,7 @@ export default function Footer() {
             >
               <Image
                 src="/images/logo-1.png"
-                alt="ORBITA"
+                alt="Up Studio"
                 width={130}
                 height={45}
                 className="absolute inset-0 h-auto w-full opacity-100 transition-opacity duration-500 group-hover:opacity-0"
@@ -101,7 +101,7 @@ export default function Footer() {
 
               <Image
                 src="/images/logo-2.png"
-                alt="ORBITA"
+                alt="Up Studio"
                 width={130}
                 height={45}
                 className="absolute inset-0 h-auto w-full opacity-0 transition-opacity duration-500 group-hover:opacity-100"
@@ -225,7 +225,7 @@ export default function Footer() {
 
               <li>
                 <a
-                  href="mailto:hola@orbita.com"
+                  href="mailto:email@upstudio.com"
                   className="group flex items-start gap-3 text-sm text-[#94A3B8] transition-colors duration-300 hover:text-white"
                 >
                   <MailOutlined
@@ -234,7 +234,7 @@ export default function Footer() {
                   />
 
                   <span>
-                    hola@orbita.com
+                    email@upstudio.com
                   </span>
                 </a>
               </li>
@@ -273,7 +273,7 @@ export default function Footer() {
         <div className="flex flex-col gap-4 border-t border-white/10 py-6 text-xs text-[#64748B] md:flex-row md:items-center md:justify-between">
 
           <p>
-            © {new Date().getFullYear()} ORBITA. Todos los derechos reservados.
+            © {new Date().getFullYear()} Up Studio. Todos los derechos reservados.
           </p>
 
           <div className="flex gap-6">
