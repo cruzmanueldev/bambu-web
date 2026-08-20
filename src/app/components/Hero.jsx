@@ -75,7 +75,7 @@ export default function Hero() {
   });
 
   return (
-    <section className="relative flex h-screen items-center justify-center overflow-hidden bg-[#111828]">
+    <section className="relative flex h-screen items-center justify-center overflow-hidden bg-[#FFFFFF]">
 
       <div
         className="
@@ -83,7 +83,7 @@ export default function Hero() {
           absolute
           -left-32
           top-1/4
-          h-[500px]
+          h-[200px]
           w-[500px]
           rounded-full
           bg-[#903BB5]/30
@@ -96,8 +96,8 @@ export default function Hero() {
           hero-orb-orange
           absolute
           -right-32
-          bottom-40
-          h-[450px]
+          bottom-60
+          h-[250px]
           w-[450px]
           rounded-full
           bg-[#F78639]/20
@@ -107,7 +107,7 @@ export default function Hero() {
 
       <div className="relative z-10 max-w-6xl px-6">
 
-        <h1 className="hero-title text-6xl font-bold leading-[1.05] tracking-tight text-white md:text-8xl lg:text-[9rem]">
+        <h1 className="hero-title text-6xl font-bold leading-[1.05] tracking-tight text-black md:text-8xl lg:text-[9rem]">
 
           <span className="hero-word inline-block">
             ¿Tienes una idea de negocio?
@@ -117,10 +117,10 @@ export default function Hero() {
             className="
               hero-word
               inline-block
-              bg-gradient-to-r
-              from-[#FF69EA]
-              via-[#D54BF7]
-              to-[#903BB5]
+              bg-gradient-to-l
+              to-[#D73502]
+              via-[#FC6400]
+              from-[#FF7500]
               bg-clip-text
               text-transparent
             "
@@ -130,7 +130,7 @@ export default function Hero() {
 
         </h1>
 
-        <p className="hero-subtitle mx-auto mt-8 max-w-2xl text-lg leading-relaxed text-[#CBD5E1] md:text-xl">
+        <p className="hero-subtitle mx-auto mt-8 max-w-2xl text-lg leading-relaxed text-[#000000] md:text-xl">
           Marketing, contenido y estrategia para llevar tu marca
           al siguiente nivel.
         </p>
@@ -143,16 +143,16 @@ export default function Hero() {
                 behavior: "smooth",
               });
             }}
-            className="cursor-pointer group flex flex-col items-center gap-3 text-sm text-white/50 transition-colors duration-300 hover:text-white"
+            className="cursor-pointer group flex flex-col items-center gap-3 text-sm text-black/50 transition-colors duration-300 hover:text-black"
           >
             <MousePointerClick
               size={18}
               strokeWidth={1.5}
-              className="text-[#FF69EA] animate-bounce transition-transform duration-500 ease-out group-hover:translate-y-1"
+              className="text-[#FC6400] animate-bounce transition-transform duration-500 ease-out group-hover:translate-y-1"
             />
 
             <div
-              className="h-12 w-px bg-gradient-to-b from-[#FF69EA] to-transparent"
+              className="h-12 w-px bg-gradient-to-b from-[#FC6400] to-transparent"
             />
           </button>
         </div>

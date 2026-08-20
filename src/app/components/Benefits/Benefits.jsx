@@ -190,7 +190,7 @@ export default function Benefits() {
   });
 
   return (
-    <main className="overflow-hidden bg-[#111828] text-white">
+    <main className="overflow-hidden bg-[#FFFFFF] text-black">
 
       <section className="relative flex min-h-screen items-center overflow-hidden px-6 py-32">
 
@@ -224,8 +224,8 @@ export default function Benefits() {
 
         <div className="relative z-10 mx-auto w-full max-w-7xl">
 
-          <div className="mb-8 flex items-center gap-4 text-sm uppercase tracking-[0.3em] text-[#CBD5E1]">
-            <span className="h-px w-12 bg-[#FF69EA]" />
+          <div className="mb-8 flex items-center gap-4 text-sm uppercase tracking-[0.3em] text-[#000000]">
+            <span className="h-px w-12 bg-[#FC6400]" />
             ¿Por qué elegirnos?
           </div>
 
@@ -243,10 +243,10 @@ export default function Benefits() {
               className="
                 benefits-hero-line
                 block
-                bg-gradient-to-r
-                from-[#FF69EA]
-                via-[#D54BF7]
-                to-[#903BB5]
+                bg-gradient-to-l
+              to-[#D73502]
+              via-[#FC6400]
+              from-[#FF7500]
                 bg-clip-text
                 text-transparent
               "
@@ -258,16 +258,16 @@ export default function Benefits() {
 
           <div className="mt-12 flex flex-col justify-between gap-10 md:flex-row md:items-end">
 
-            <p className="benefits-hero-description max-w-2xl text-lg leading-relaxed text-[#CBD5E1] md:text-xl">
+            <p className="benefits-hero-description max-w-2xl text-lg leading-relaxed text-[#000000] md:text-xl">
               No se trata solamente de publicar contenido. Se trata de
               construir una estrategia que haga que tu marca sea vista,
               recordada y elegida.
             </p>
 
-            <div className="benefits-scroll flex items-center gap-3 text-sm uppercase tracking-[0.2em] text-white/40">
+            <div className="benefits-scroll flex items-center gap-3 text-sm uppercase tracking-[0.2em] text-black">
               <ArrowDown
                 size={18}
-                className="animate-bounce text-[#FF69EA]"
+                className="animate-bounce text-[#FC6400]"
               />
               Descubre más
             </div>
@@ -283,14 +283,14 @@ export default function Benefits() {
 
           <div className="mb-20 max-w-4xl">
 
-            <span className="text-sm uppercase tracking-[0.3em] text-[#FF69EA]">
+            <span className="text-sm uppercase tracking-[0.3em] text-[#FC6400]">
               El resultado
             </span>
 
             <h2 className="mt-5 text-5xl font-bold leading-tight md:text-7xl">
               En grande,
               <br />
-              <span className="text-[#CBD5E1]">
+              <span className="text-[#000000]">
                 tu negocio tendrá
               </span>
             </h2>
@@ -311,18 +311,19 @@ export default function Benefits() {
                   overflow-hidden
                   rounded-[2rem]
                   border
-                  border-white/10
+                  border-black/10
                   bg-white/[0.025]
                   p-8
                   transition-all
                   duration-500
                   hover:-translate-y-2
-                  hover:border-[#D54BF7]/40
-                  hover:bg-white/[0.05]
+                  hover:border-none
+                  hover:bg-[#fca356]
+                  hover:text-white
                 "
               >
 
-                <span className="absolute right-7 top-7 text-sm text-white/20 transition-colors duration-500 group-hover:text-[#FF69EA]/70">
+                <span className="absolute right-7 top-7 text-sm text-black/60 transition-colors duration-500 group-hover:text-white">
                   0{index + 1}
                 </span>
 
@@ -334,12 +335,12 @@ export default function Benefits() {
                     items-center
                     justify-center
                     rounded-full
-                    bg-[#D54BF7]/10
-                    text-[#FF69EA]
+                    bg-[#FC6400]/10
+                    text-[#FC6400]
                     transition-all
                     duration-500
                     group-hover:scale-110
-                    group-hover:bg-[#D54BF7]
+                    group-hover:bg-[#FC6400]
                     group-hover:text-white
                   "
                 >
@@ -358,8 +359,9 @@ export default function Benefits() {
                     h-1
                     w-0
                     bg-gradient-to-r
-                    from-[#FF69EA]
-                    to-[#903BB5]
+                                  to-[#D73502]
+              via-[#FC6400]
+              from-[#FF7500]
                     transition-all
                     duration-500
                     group-hover:w-full
@@ -391,9 +393,10 @@ export default function Benefits() {
                 <br />
                 <span
                   className="
-                    bg-gradient-to-r
-                    from-[#F79748]
-                    to-[#EF5120]
+                    bg-gradient-to-l
+              to-[#D73502]
+              via-[#FC6400]
+              from-[#FF7500]
                     bg-clip-text
                     text-transparent
                   "
@@ -406,7 +409,7 @@ export default function Benefits() {
 
             <div className="flex items-end">
 
-              <p className="max-w-xl text-lg leading-relaxed text-[#94A3B8]">
+              <p className="max-w-xl text-lg leading-relaxed text-[#000000]">
                 Trabajamos cada etapa de manera estratégica para que tu
                 presencia digital no sea producto de la improvisación,
                 sino de un proceso pensado para crecer.
@@ -431,8 +434,8 @@ export default function Benefits() {
                 h-[calc(100%-4rem)]
                 w-px
                 bg-gradient-to-b
-                from-[#FF69EA]
-                via-[#D54BF7]
+                from-[#FC6400]
+                via-[#FC6400]
                 to-[#F78639]
                 md:block
               "
@@ -451,13 +454,12 @@ export default function Benefits() {
                     gap-8
                     rounded-[2rem]
                     border
-                    border-white/10
-                    bg-white/[0.02]
+                    border-black/5
                     p-8
                     transition-all
                     duration-500
-                    hover:border-white/20
-                    hover:bg-white/[0.04]
+                    hover:border-black/10
+                    hover:backdrop-blur-xl
                     md:grid-cols-[56px_180px_1fr]
                     md:items-center
                     md:p-10
@@ -474,15 +476,14 @@ export default function Benefits() {
                       justify-center
                       rounded-full
                       border
-                      border-[#D54BF7]/40
-                      bg-[#111828]
+                      border-[#FC6400]/40
+                      bg-[#FFFFFF]
                       text-sm
                       font-semibold
-                      text-[#FF69EA]
+                      text-[#FC6400]
                       transition-all
                       duration-500
-                      group-hover:border-[#FF69EA]
-                      group-hover:bg-[#D54BF7]
+                      group-hover:bg-[#FC6400]
                       group-hover:text-white
                     "
                   >
@@ -499,7 +500,7 @@ export default function Benefits() {
                       {step.title}
                     </h3>
 
-                    <p className="mt-3 max-w-2xl text-base leading-relaxed text-[#94A3B8]">
+                    <p className="mt-3 max-w-2xl text-base leading-relaxed text-[#000000]">
                       {step.description}
                     </p>
 

@@ -106,7 +106,7 @@ export default function Portfolio() {
 
     gsap.to(".portfolio-orb-orange", {
       x: -100,
-      y: 80,
+      y: 30,
       duration: 8,
       repeat: -1,
       yoyo: true,
@@ -170,7 +170,7 @@ export default function Portfolio() {
   });
 
   return (
-    <main className="relative overflow-hidden bg-[#111828] text-white">
+    <main className="relative overflow-hidden bg-[#FFFFFF] text-black">
 
       <section className="relative flex min-h-screen items-center overflow-hidden px-6 py-32">
 
@@ -179,8 +179,8 @@ export default function Portfolio() {
             portfolio-orb-purple
             absolute
             -left-48
-            top-1/4
-            h-[600px]
+            top-1/8
+            h-[200px]
             w-[600px]
             rounded-full
             bg-[#903BB5]/20
@@ -193,9 +193,9 @@ export default function Portfolio() {
             portfolio-orb-orange
             absolute
             -right-48
-            bottom-96
+            bottom-44
             h-[50px]
-            w-[550px]
+            w-[450px]
             rounded-full
             bg-[#F78639]/15
             blur-[150px]
@@ -204,8 +204,8 @@ export default function Portfolio() {
 
         <div className="relative z-10 mx-auto w-full max-w-7xl">
 
-          <div className="mb-8 flex items-center gap-4 text-sm uppercase tracking-[0.3em] text-[#CBD5E1]">
-            <span className="h-px w-12 bg-[#FF69EA]" />
+          <div className="mb-8 flex items-center gap-4 text-sm uppercase tracking-[0.3em] text-[#000000]">
+            <span className="h-px w-12 bg-[#FC6400]" />
             Nuestro portafolio
           </div>
 
@@ -223,10 +223,10 @@ export default function Portfolio() {
               className="
                 portfolio-hero-line
                 block
-                bg-gradient-to-r
-                from-[#FF69EA]
-                via-[#D54BF7]
-                to-[#903BB5]
+                bg-gradient-to-l
+              to-[#D73502]
+              via-[#FC6400]
+              from-[#FF7500]
                 bg-clip-text
                 text-transparent
               "
@@ -238,13 +238,13 @@ export default function Portfolio() {
 
           <div className="mt-12 flex flex-col justify-between gap-10 md:flex-row md:items-end">
 
-            <p className="portfolio-hero-description max-w-xl text-lg leading-relaxed text-[#CBD5E1] md:text-xl">
+            <p className="portfolio-hero-description max-w-xl text-lg leading-relaxed text-[#000000] md:text-xl">
               Una selección de proyectos donde estrategia, creatividad y
               contenido trabajan juntos para hacer crecer marcas.
             </p>
 
             <button
-              className=" cursor-pointer portfolio-scroll flex items-center gap-3 text-sm uppercase tracking-[0.2em] text-white/40"
+              className=" cursor-pointer portfolio-scroll flex items-center gap-3 text-sm uppercase tracking-[0.2em] text-black"
               onClick={() => {
                 document.getElementById("about")?.scrollIntoView({
                   behavior: "smooth",
@@ -253,7 +253,7 @@ export default function Portfolio() {
             >
               <ArrowDown
                 size={18}
-                className="animate-bounce text-[#FF69EA]"
+                className="animate-bounce text-[#FC6400]"
               />
               Explorar
             </button>
@@ -273,7 +273,7 @@ export default function Portfolio() {
             </h2>
           </div>
 
-          <span className="hidden text-sm text-white/40 md:block">
+          <span className="hidden text-sm text-black/40 md:block">
             {projects.length.toString().padStart(2, "0")} proyectos
           </span>
         </div>
@@ -334,7 +334,7 @@ export default function Portfolio() {
                       absolute
                       inset-0
                       bg-gradient-to-t
-                      from-[#111828]/80
+                      from-[#FFFFFF]/80
                       via-transparent
                       to-transparent
                       opacity-60
@@ -357,7 +357,7 @@ export default function Portfolio() {
                       justify-center
                       rounded-full
                       bg-white
-                      text-[#111828]
+                      text-[#FC6400]
                       opacity-0
                       transition-all
                       duration-500
@@ -379,7 +379,7 @@ export default function Portfolio() {
                   `}
                 >
 
-                  <span className="text-sm uppercase tracking-[0.25em] text-[#FF69EA]">
+                  <span className="text-sm uppercase tracking-[0.25em] text-[#FC6400]">
                     {project.category}
                   </span>
 
@@ -387,7 +387,7 @@ export default function Portfolio() {
                     {project.title}
                   </h3>
 
-                  <p className="mt-6 max-w-md text-lg leading-relaxed text-[#94A3B8]">
+                  <p className="mt-6 max-w-md text-lg leading-relaxed text-[#000000]">
                     {project.description}
                   </p>
 
@@ -399,14 +399,16 @@ export default function Portfolio() {
                         className="
                           rounded-full
                           border
-                          border-white/10
                           bg-white/[0.03]
+                          shadow-[0_4px_20px_rgba(0,0,0,0.04)]
                           px-4
                           py-2
                           text-xs
                           uppercase
                           tracking-wider
-                          text-[#CBD5E1]
+                          border-black/10
+                          backdrop-blur-xl
+                          text-[#000000]
                         "
                       >
                         {tag}
@@ -427,7 +429,7 @@ export default function Portfolio() {
                       font-medium
                       uppercase
                       tracking-widest
-                      text-white
+                      text-[#FC6400]
                       cursor-pointer
                     "
                   >

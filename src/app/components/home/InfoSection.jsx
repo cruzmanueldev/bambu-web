@@ -19,7 +19,7 @@ export default function InfoSection({
             ${isLeft ? 'rounded-r-full' : 'rounded-l-full'}
           `}
         >
-          <h2 className="text-center text-4xl font-bold text-white">
+          <h2 className="text-center text-4xl font-bold text-black">
             {title}
           </h2>
         </div>
@@ -40,7 +40,7 @@ export default function InfoSection({
             {ctaText && (
               <button
                 onClick={onCtaClick}
-                className="rounded-full cursor-pointer bg-black px-6 py-3 text-white transition hover:bg-gray-900"
+                className="rounded-full cursor-pointer bg-black px-6 py-3 text-black transition hover:bg-gray-900"
               >
                 {ctaText}
               </button>

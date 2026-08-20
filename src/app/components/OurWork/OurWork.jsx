@@ -40,36 +40,36 @@ export default function OurWork() {
           className="object-cover object-center"
         />
 
-        <div className="absolute inset-0 bg-[#111828]/75" />
+        <div className="absolute inset-0 bg-[#FFFFFF]/75" />
 
-        <div className="absolute inset-0 bg-gradient-to-r from-[#111828]/95 via-[#111828]/60 to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-r from-[#FFFFFF]/95 via-[#FFFFFF]/60 to-transparent" />
 
-        <div className="absolute -left-32 top-1/2 h-[400px] w-[400px] -translate-y-1/2 rounded-full bg-[#D54BF7]/20 blur-[130px]" />
+        <div className="absolute -left-32 top-1/2 h-[400px] w-[400px] -translate-y-1/2 rounded-full bg-[#FC6400]/20 blur-[130px]" />
 
         <div className="relative z-10 w-full px-8 md:px-20 lg:px-32">
 
           <div className="mb-6 flex items-center gap-4">
-            <span className="text-sm font-medium tracking-[0.3em] text-[#FF69EA]">
+            <span className="text-sm font-medium tracking-[0.3em] text-[#FC6400]">
               01
             </span>
 
-            <div className="h-px w-16 bg-[#FF69EA]/60" />
+            <div className="h-px w-16 bg-[#FC6400]/60" />
 
-            <span className="text-sm font-medium uppercase tracking-[0.25em] text-[#CBD5E1]">
+            <span className="text-sm font-medium uppercase tracking-[0.25em] text-[#000000]">
               Producción & contenido
             </span>
           </div>
 
-          <h2 className="max-w-5xl text-5xl font-bold leading-[0.95] tracking-tight text-white md:text-7xl lg:text-8xl">
+          <h2 className="max-w-5xl text-5xl font-bold leading-[0.95] tracking-tight text-black md:text-7xl lg:text-8xl">
             Producción
             <br />
 
-            <span className="bg-gradient-to-r from-[#FF69EA] via-[#D54BF7] to-[#903BB5] bg-clip-text text-transparent">
+            <span className="bg-gradient-to-l to-[#D73502] via-[#FC6400] from-[#FF7500] bg-clip-text text-transparent">
               Audiovisual
             </span>
           </h2>
 
-          <p className="mt-7 max-w-2xl text-base leading-relaxed text-[#CBD5E1] md:text-lg">
+          <p className="mt-7 max-w-2xl text-base leading-relaxed text-[#000000] md:text-lg">
             Creamos contenido audiovisual que convierte ideas en experiencias
             visuales capaces de conectar con tu audiencia y potenciar tu marca.
           </p>
@@ -88,11 +88,11 @@ export default function OurWork() {
                 key={item}
                 className="group flex items-center gap-3 border-b border-white/10 pb-3"
               >
-                <span className="text-xs font-medium text-[#FF69EA]">
+                <span className="text-xs font-medium text-[#FC6400]">
                   0{index + 1}
                 </span>
 
-                <span className="text-sm text-[#E2E8F0] transition-colors duration-300 group-hover:text-white md:text-base">
+                <span className="text-sm text-[#000000] transition-colors duration-300 group-hover:text-black md:text-base">
                   {item}
                 </span>
               </div>
@@ -113,38 +113,38 @@ export default function OurWork() {
           className="object-cover object-center"
         />
 
-        <div className="absolute inset-0 bg-[#111828]/75" />
+        <div className="absolute inset-0 bg-[#FFFFFF]/75" />
 
-        <div className="absolute inset-0 bg-gradient-to-r from-[#111828]/95 via-[#111828]/60 to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-r from-[#FFFFFF]/95 via-[#FFFFFF]/60 to-transparent" />
 
-        <div className="absolute -left-32 top-1/2 h-[400px] w-[400px] -translate-y-1/2 rounded-full bg-[#D54BF7]/20 blur-[130px]" />
+        <div className="absolute -left-32 top-1/2 h-[400px] w-[400px] -translate-y-1/2 rounded-full bg-[#FC6400]/20 blur-[130px]" />
 
         <div className="relative z-10 w-full px-8 md:px-20 lg:px-32">
 
           <div className="mb-6 flex items-center gap-4">
-            <span className="text-sm font-medium tracking-[0.3em] text-[#FF69EA]">
+            <span className="text-sm font-medium tracking-[0.3em] text-[#FC6400]">
               02
             </span>
 
-            <div className="h-px w-16 bg-[#FF69EA]/60" />
+            <div className="h-px w-16 bg-[#FC6400]/60" />
 
-            <span className="text-sm font-medium uppercase tracking-[0.25em] text-[#CBD5E1]">
+            <span className="text-sm font-medium uppercase tracking-[0.25em] text-[#000000]">
               Estrategia digital
             </span>
           </div>
 
           
-          <h2 className="max-w-5xl text-5xl font-bold leading-[0.95] tracking-tight text-white md:text-7xl lg:text-8xl">
+          <h2 className="max-w-5xl text-5xl font-bold leading-[0.95] tracking-tight text-black md:text-7xl lg:text-8xl">
             Manejo de
             <br />
 
-            <span className="bg-gradient-to-r from-[#FF69EA] via-[#D54BF7] to-[#903BB5] bg-clip-text text-transparent">
+            <span className="bg-gradient-to-l to-[#D73502] via-[#FC6400] from-[#FF7500] bg-clip-text text-transparent">
               redes sociales
             </span>
           </h2>
 
           
-          <p className="mt-7 max-w-2xl text-base leading-relaxed text-[#CBD5E1] md:text-lg">
+          <p className="mt-7 max-w-2xl text-base leading-relaxed text-[#000000] md:text-lg">
             Construimos y gestionamos la presencia digital de tu marca con
             contenido estratégico que conecta con tu audiencia y genera
             crecimiento.
@@ -154,61 +154,61 @@ export default function OurWork() {
           <div className="mt-10 grid max-w-4xl grid-cols-1 gap-x-10 gap-y-3 sm:grid-cols-2">
 
             <div className="group flex items-center gap-3 border-b border-white/10 pb-3">
-              <span className="text-xs font-medium text-[#FF69EA]">
+              <span className="text-xs font-medium text-[#FC6400]">
                 01
               </span>
 
-              <span className="text-sm text-[#E2E8F0] transition-colors duration-300 group-hover:text-white md:text-base">
+              <span className="text-sm text-[#000000] transition-colors duration-300 group-hover:text-black md:text-base">
                 Gestión de redes sociales
               </span>
             </div>
 
             <div className="group flex items-center gap-3 border-b border-white/10 pb-3">
-              <span className="text-xs font-medium text-[#FF69EA]">
+              <span className="text-xs font-medium text-[#FC6400]">
                 02
               </span>
 
-              <span className="text-sm text-[#E2E8F0] transition-colors duration-300 group-hover:text-white md:text-base">
+              <span className="text-sm text-[#000000] transition-colors duration-300 group-hover:text-black md:text-base">
                 Creación de contenido
               </span>
             </div>
 
             <div className="group flex items-center gap-3 border-b border-white/10 pb-3">
-              <span className="text-xs font-medium text-[#FF69EA]">
+              <span className="text-xs font-medium text-[#FC6400]">
                 03
               </span>
 
-              <span className="text-sm text-[#E2E8F0] transition-colors duration-300 group-hover:text-white md:text-base">
+              <span className="text-sm text-[#000000] transition-colors duration-300 group-hover:text-black md:text-base">
                 Diseño de publicaciones
               </span>
             </div>
 
             <div className="group flex items-center gap-3 border-b border-white/10 pb-3">
-              <span className="text-xs font-medium text-[#FF69EA]">
+              <span className="text-xs font-medium text-[#FC6400]">
                 04
               </span>
 
-              <span className="text-sm text-[#E2E8F0] transition-colors duration-300 group-hover:text-white md:text-base">
+              <span className="text-sm text-[#000000] transition-colors duration-300 group-hover:text-black md:text-base">
                 Reels y contenido audiovisual
               </span>
             </div>
 
             <div className="group flex items-center gap-3 border-b border-white/10 pb-3">
-              <span className="text-xs font-medium text-[#FF69EA]">
+              <span className="text-xs font-medium text-[#FC6400]">
                 05
               </span>
 
-              <span className="text-sm text-[#E2E8F0] transition-colors duration-300 group-hover:text-white md:text-base">
+              <span className="text-sm text-[#000000] transition-colors duration-300 group-hover:text-black md:text-base">
                 Estrategia de contenido
               </span>
             </div>
 
             <div className="group flex items-center gap-3 border-b border-white/10 pb-3">
-              <span className="text-xs font-medium text-[#FF69EA]">
+              <span className="text-xs font-medium text-[#FC6400]">
                 06
               </span>
 
-              <span className="text-sm text-[#E2E8F0] transition-colors duration-300 group-hover:text-white md:text-base">
+              <span className="text-sm text-[#000000] transition-colors duration-300 group-hover:text-black md:text-base">
                 Análisis y optimización
               </span>
             </div>
@@ -228,10 +228,10 @@ export default function OurWork() {
         />
 
         
-        <div className="absolute inset-0 bg-[#111828]/75" />
+        <div className="absolute inset-0 bg-[#FFFFFF]/75" />
 
         
-        <div className="absolute inset-0 bg-gradient-to-l from-[#111828]/95 via-[#111828]/60 to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-l from-[#FFFFFF]/95 via-[#FFFFFF]/60 to-transparent" />
 
         
         <div className="absolute -right-32 top-1/2 h-[400px] w-[400px] -translate-y-1/2 rounded-full bg-[#F78639]/20 blur-[130px]" />
@@ -243,7 +243,7 @@ export default function OurWork() {
 
             
             <div className="mb-6 flex items-center justify-end gap-4">
-              <span className="text-sm font-medium uppercase tracking-[0.25em] text-[#CBD5E1]">
+              <span className="text-sm font-medium uppercase tracking-[0.25em] text-[#000000]">
                 Estrategia & crecimiento
               </span>
 
@@ -255,7 +255,7 @@ export default function OurWork() {
             </div>
 
             
-            <h2 className="text-right text-5xl font-bold leading-[0.95] tracking-tight text-white md:text-7xl lg:text-8xl">
+            <h2 className="text-right text-5xl font-bold leading-[0.95] tracking-tight text-black md:text-7xl lg:text-8xl">
               Marketing
               <br />
 
@@ -265,7 +265,7 @@ export default function OurWork() {
             </h2>
 
             
-            <p className="ml-auto mt-7 max-w-2xl text-right text-base leading-relaxed text-[#CBD5E1] md:text-lg">
+            <p className="ml-auto mt-7 max-w-2xl text-right text-base leading-relaxed text-[#000000] md:text-lg">
               Diseñamos estrategias enfocadas en convertir oportunidades en
               resultados, alineando cada acción de marketing con los objetivos
               comerciales de tu negocio.
@@ -275,7 +275,7 @@ export default function OurWork() {
             <div className="ml-auto mt-10 grid max-w-4xl grid-cols-1 gap-x-10 gap-y-3 sm:grid-cols-2">
 
               <div className="group flex items-center justify-end gap-3 border-b border-white/10 pb-3">
-                <span className="text-sm text-[#E2E8F0] transition-colors duration-300 group-hover:text-white md:text-base">
+                <span className="text-sm text-[#000000] transition-colors duration-300 group-hover:text-black md:text-base">
                   Plan de marketing mensual
                 </span>
 
@@ -285,7 +285,7 @@ export default function OurWork() {
               </div>
 
               <div className="group flex items-center justify-end gap-3 border-b border-white/10 pb-3">
-                <span className="text-sm text-[#E2E8F0] transition-colors duration-300 group-hover:text-white md:text-base">
+                <span className="text-sm text-[#000000] transition-colors duration-300 group-hover:text-black md:text-base">
                   Estrategias de crecimiento
                 </span>
 
@@ -295,7 +295,7 @@ export default function OurWork() {
               </div>
 
               <div className="group flex items-center justify-end gap-3 border-b border-white/10 pb-3">
-                <span className="text-sm text-[#E2E8F0] transition-colors duration-300 group-hover:text-white md:text-base">
+                <span className="text-sm text-[#000000] transition-colors duration-300 group-hover:text-black md:text-base">
                   Embudos de ventas
                 </span>
 
@@ -305,7 +305,7 @@ export default function OurWork() {
               </div>
 
               <div className="group flex items-center justify-end gap-3 border-b border-white/10 pb-3">
-                <span className="text-sm text-[#E2E8F0] transition-colors duration-300 group-hover:text-white md:text-base">
+                <span className="text-sm text-[#000000] transition-colors duration-300 group-hover:text-black md:text-base">
                   Asesoría comercial
                 </span>
 
@@ -315,7 +315,7 @@ export default function OurWork() {
               </div>
 
               <div className="group flex items-center justify-end gap-3 border-b border-white/10 pb-3">
-                <span className="text-sm text-[#E2E8F0] transition-colors duration-300 group-hover:text-white md:text-base">
+                <span className="text-sm text-[#000000] transition-colors duration-300 group-hover:text-black md:text-base">
                   Optimización de ventas
                 </span>
 
@@ -340,9 +340,9 @@ export default function OurWork() {
           className="object-cover object-center"
         />
 
-        <div className="absolute inset-0 bg-[#111828]/75" />
+        <div className="absolute inset-0 bg-[#FFFFFF]/75" />
 
-        <div className="absolute inset-0 bg-gradient-to-r from-[#111828]/95 via-[#111828]/60 to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-r from-[#FFFFFF]/95 via-[#FFFFFF]/60 to-transparent" />
 
         <div className="absolute -left-32 top-1/2 h-[400px] w-[400px] -translate-y-1/2 rounded-full bg-[#903BB5]/25 blur-[130px]" />
 
@@ -352,29 +352,29 @@ export default function OurWork() {
 
             
             <div className="mb-6 flex items-center gap-4">
-              <span className="text-sm font-medium tracking-[0.3em] text-[#FF69EA]">
+              <span className="text-sm font-medium tracking-[0.3em] text-[#FC6400]">
                 04
               </span>
 
-              <div className="h-px w-16 bg-[#FF69EA]/60" />
+              <div className="h-px w-16 bg-[#FC6400]/60" />
 
-              <span className="text-sm font-medium uppercase tracking-[0.25em] text-[#CBD5E1]">
+              <span className="text-sm font-medium uppercase tracking-[0.25em] text-[#000000]">
                 Identidad visual
               </span>
             </div>
 
             
-            <h2 className="max-w-5xl text-5xl font-bold leading-[0.95] tracking-tight text-white md:text-7xl lg:text-8xl">
+            <h2 className="max-w-5xl text-5xl font-bold leading-[0.95] tracking-tight text-black md:text-7xl lg:text-8xl">
               Diseño
               <br />
 
-              <span className="bg-gradient-to-r from-[#FF69EA] via-[#D54BF7] to-[#903BB5] bg-clip-text text-transparent">
+              <span className="bg-gradient-to-l to-[#D73502] via-[#FC6400] from-[#FF7500] bg-clip-text text-transparent">
                 Gráfico
               </span>
             </h2>
 
             
-            <p className="mt-7 max-w-2xl text-base leading-relaxed text-[#CBD5E1] md:text-lg">
+            <p className="mt-7 max-w-2xl text-base leading-relaxed text-[#000000] md:text-lg">
               Creamos piezas visuales que transmiten la esencia de tu marca,
               fortalecen su identidad y generan una imagen profesional y
               memorable.
@@ -384,51 +384,51 @@ export default function OurWork() {
             <div className="mt-10 grid max-w-4xl grid-cols-1 gap-x-10 gap-y-3 sm:grid-cols-2">
 
               <div className="group flex items-center gap-3 border-b border-white/10 pb-3">
-                <span className="text-xs font-medium text-[#FF69EA]">
+                <span className="text-xs font-medium text-[#FC6400]">
                   01
                 </span>
 
-                <span className="text-sm text-[#E2E8F0] transition-colors duration-300 group-hover:text-white md:text-base">
+                <span className="text-sm text-[#000000] transition-colors duration-300 group-hover:text-black md:text-base">
                   Logotipos
                 </span>
               </div>
 
               <div className="group flex items-center gap-3 border-b border-white/10 pb-3">
-                <span className="text-xs font-medium text-[#FF69EA]">
+                <span className="text-xs font-medium text-[#FC6400]">
                   02
                 </span>
 
-                <span className="text-sm text-[#E2E8F0] transition-colors duration-300 group-hover:text-white md:text-base">
+                <span className="text-sm text-[#000000] transition-colors duration-300 group-hover:text-black md:text-base">
                   Tarjetas de presentación
                 </span>
               </div>
 
               <div className="group flex items-center gap-3 border-b border-white/10 pb-3">
-                <span className="text-xs font-medium text-[#FF69EA]">
+                <span className="text-xs font-medium text-[#FC6400]">
                   03
                 </span>
 
-                <span className="text-sm text-[#E2E8F0] transition-colors duration-300 group-hover:text-white md:text-base">
+                <span className="text-sm text-[#000000] transition-colors duration-300 group-hover:text-black md:text-base">
                   Flyers
                 </span>
               </div>
 
               <div className="group flex items-center gap-3 border-b border-white/10 pb-3">
-                <span className="text-xs font-medium text-[#FF69EA]">
+                <span className="text-xs font-medium text-[#FC6400]">
                   04
                 </span>
 
-                <span className="text-sm text-[#E2E8F0] transition-colors duration-300 group-hover:text-white md:text-base">
+                <span className="text-sm text-[#000000] transition-colors duration-300 group-hover:text-black md:text-base">
                   Banners
                 </span>
               </div>
 
               <div className="group flex items-center gap-3 border-b border-white/10 pb-3">
-                <span className="text-xs font-medium text-[#FF69EA]">
+                <span className="text-xs font-medium text-[#FC6400]">
                   05
                 </span>
 
-                <span className="text-sm text-[#E2E8F0] transition-colors duration-300 group-hover:text-white md:text-base">
+                <span className="text-sm text-[#000000] transition-colors duration-300 group-hover:text-black md:text-base">
                   Branding
                 </span>
               </div>
@@ -450,10 +450,10 @@ export default function OurWork() {
         />
 
         
-        <div className="absolute inset-0 bg-[#111828]/75" />
+        <div className="absolute inset-0 bg-[#FFFFFF]/75" />
 
         {/* Gradiente lateral */}
-        <div className="absolute inset-0 bg-gradient-to-r from-[#111828]/95 via-[#111828]/60 to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-r from-[#FFFFFF]/95 via-[#FFFFFF]/60 to-transparent" />
 
         
         <div className="absolute -left-32 top-1/2 h-[400px] w-[400px] -translate-y-1/2 rounded-full bg-[#F78639]/20 blur-[130px]" />
@@ -471,23 +471,23 @@ export default function OurWork() {
 
               <div className="h-px w-16 bg-[#FCB454]/60" />
 
-              <span className="text-sm font-medium uppercase tracking-[0.25em] text-[#CBD5E1]">
+              <span className="text-sm font-medium uppercase tracking-[0.25em] text-[#000000]">
                 Tecnología & presencia digital
               </span>
             </div>
 
             
-            <h2 className="max-w-5xl text-5xl font-bold leading-[0.95] tracking-tight text-white md:text-7xl lg:text-8xl">
+            <h2 className="max-w-5xl text-5xl font-bold leading-[0.95] tracking-tight text-black md:text-7xl lg:text-8xl">
               Desarrollo
               <br />
 
-              <span className="bg-gradient-to-r from-[#FCB454] via-[#F79748] to-[#EF5120] bg-clip-text text-transparent">
+              <span className="bg-gradient-to-l to-[#D73502] via-[#FC6400] from-[#FF7500] bg-clip-text text-transparent">
                 Web
               </span>
             </h2>
 
             
-            <p className="mt-7 max-w-2xl text-base leading-relaxed text-[#CBD5E1] md:text-lg">
+            <p className="mt-7 max-w-2xl text-base leading-relaxed text-[#000000] md:text-lg">
               Diseñamos y desarrollamos sitios web modernos, rápidos y
               funcionales que convierten visitantes en clientes y ayudan a
               posicionar tu negocio en el mundo digital.
@@ -501,7 +501,7 @@ export default function OurWork() {
                   01
                 </span>
 
-                <span className="text-sm text-[#E2E8F0] transition-colors duration-300 group-hover:text-white md:text-base">
+                <span className="text-sm text-[#000000] transition-colors duration-300 group-hover:text-black md:text-base">
                   Landing pages
                 </span>
               </div>
@@ -511,7 +511,7 @@ export default function OurWork() {
                   02
                 </span>
 
-                <span className="text-sm text-[#E2E8F0] transition-colors duration-300 group-hover:text-white md:text-base">
+                <span className="text-sm text-[#000000] transition-colors duration-300 group-hover:text-black md:text-base">
                   Páginas corporativas
                 </span>
               </div>
@@ -521,7 +521,7 @@ export default function OurWork() {
                   03
                 </span>
 
-                <span className="text-sm text-[#E2E8F0] transition-colors duration-300 group-hover:text-white md:text-base">
+                <span className="text-sm text-[#000000] transition-colors duration-300 group-hover:text-black md:text-base">
                   Tiendas online
                 </span>
               </div>
@@ -531,7 +531,7 @@ export default function OurWork() {
                   04
                 </span>
 
-                <span className="text-sm text-[#E2E8F0] transition-colors duration-300 group-hover:text-white md:text-base">
+                <span className="text-sm text-[#000000] transition-colors duration-300 group-hover:text-black md:text-base">
                   Optimización SEO
                 </span>
               </div>
@@ -541,7 +541,7 @@ export default function OurWork() {
                   05
                 </span>
 
-                <span className="text-sm text-[#E2E8F0] transition-colors duration-300 group-hover:text-white md:text-base">
+                <span className="text-sm text-[#000000] transition-colors duration-300 group-hover:text-black md:text-base">
                   Formularios de contacto
                 </span>
               </div>

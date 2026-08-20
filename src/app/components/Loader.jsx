@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function Loader() {
   return (
-    <div className="loader fixed inset-0 z-50 flex items-center justify-center bg-black text-white">
+    <div className="loader fixed inset-0 z-50 flex items-center justify-center bg-white text-black">
       <Image
         src="/images/logo-3.png"
         alt="Logo"

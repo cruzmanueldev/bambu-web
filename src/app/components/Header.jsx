@@ -40,11 +40,11 @@ export default function Header() {
         -translate-x-1/2
         rounded-2xl
         border border-white/10
-        bg-[#111828]/85
+        bg-[#FFFFFF]/85
         backdrop-blur-xl
-        shadow-[0_4px_15px_rgba(255,255,255,0.08)]
+        shadow-[0_4px_20px_rgba(0,0,0,0.08)]
         transition-all duration-500
-        ${open ? "bg-[#111828]/95" : ""}
+        ${open ? "bg-[#FFFFFF]/95" : ""}
       `}
     >
       <div className="flex h-16 items-center justify-between px-4 md:px-6">
@@ -52,26 +52,26 @@ export default function Header() {
         <Link
           href="/"
           onClick={closeMenu}
-          className="group relative flex h-10 w-[110px] items-center"
+          className="group relative flex h-14 w-[110px] items-center"
         >
           <Image
             src="/images/logo-1.png"
-            alt="Up Studio"
-            width={80}
-            height={30}
+            alt="Fenix"
+            width={70}
+            height={20}
             priority
             className="
               absolute inset-0
               h-auto w-full
               opacity-100
               transition-opacity duration-500
-              group-hover:opacity-0
-            "
-          />
+              "
+            />
+          {/* group-hover:opacity-0 */}
 
-          <Image
+          {/* <Image
             src="/images/logo-2.png"
-            alt="Up Studio"
+            alt="Fenix"
             width={80}
             height={30}
             priority
@@ -82,7 +82,7 @@ export default function Header() {
               transition-opacity duration-500
               group-hover:opacity-100
             "
-          />
+          /> */}
         </Link>
 
         <nav className="hidden lg:flex gap-8">
@@ -102,8 +102,8 @@ export default function Header() {
                   duration-300
 
                   ${isActive
-                    ? "text-[#FF69EA]"
-                    : "text-white hover:text-[#FF69EA]"
+                    ? "text-[#FC6400]"
+                    : "text-black hover:text-[#FC6400]"
                   }
 
                   after:absolute
@@ -111,7 +111,7 @@ export default function Header() {
                   after:left-0
                   after:h-[2px]
                   after:bg-gradient-to-r
-                  after:from-[#FF69EA]
+                  after:from-[#FC6400]
                   after:to-[#903BB5]
                   after:transition-all
                   after:duration-300
@@ -137,7 +137,7 @@ export default function Header() {
               items-center
               gap-0
               rounded-full
-              bg-[#D54BF7]
+              bg-[#FC6400]
               px-6
               py-2
               text-md
@@ -170,11 +170,11 @@ export default function Header() {
             border
             border-white/10
             bg-white/5
-            text-[#D54BF7]
+            text-[#FC6400]
             transition-all
             duration-300
-            hover:border-[#FF69EA]/40
-            hover:bg-[#FF69EA]/10
+            hover:border-[#FC6400]/40
+            hover:bg-[#FC6400]/10
             cursor-pointer
             lg:hidden
           "
@@ -239,7 +239,7 @@ export default function Header() {
                 w-full
                 bg-gradient-to-r
                 from-transparent
-                via-[#FF69EA]/60
+                via-[#FC6400]/60
                 to-transparent
               "
             />
@@ -277,8 +277,8 @@ export default function Header() {
                       }
 
                       ${isActive
-                        ? "bg-[#FF69EA]/10 text-[#FF69EA]"
-                        : "text-[#CBD5E1] hover:bg-white/5 hover:text-white"
+                        ? "bg-[#FC6400]/10 text-[#FC6400]"
+                        : "text-[#000000] hover:bg-white/5 hover:text-black"
                       }
                     `}
                   >
@@ -293,8 +293,8 @@ export default function Header() {
                           duration-300
 
                           ${isActive
-                            ? "bg-[#FF69EA] shadow-[0_0_10px_#FF69EA]"
-                            : "bg-white/20 group-hover:bg-[#FF69EA]"
+                            ? "bg-[#FC6400] shadow-[0_0_10px_#FC6400]"
+                            : "bg-white/20 group-hover:bg-[#FC6400]"
                           }
                         `}
                       />
@@ -311,7 +311,7 @@ export default function Header() {
                             duration-300
     
                             ${isActive
-                              ? "translate-x-0 text-[#FF69EA] opacity-100"
+                              ? "translate-x-0 text-[#FC6400] opacity-100"
                               : "translate-x-2 opacity-0 group-hover:translate-x-0 group-hover:opacity-100"
                             }
                           `}
@@ -334,7 +334,7 @@ export default function Header() {
                   justify-center
                   gap-2
                   rounded-4xl
-                  bg-[#D54BF7]
+                  bg-[#FC6400]
                   px-4
                   py-3
                   uppercase

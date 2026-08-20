@@ -26,7 +26,7 @@ export default function Footer() {
   ];
 
   return (
-    <footer className="relative overflow-hidden bg-gray-900 text-white">
+    <footer className="relative overflow-hidden bg-white text-black">
 
       <div className="pointer-events-none absolute -left-40 top-40 h-[200px] w-[200px] rounded-full bg-[#903BB5]/15 blur-[130px]" />
 
@@ -35,22 +35,28 @@ export default function Footer() {
       <div className="relative z-10 mx-auto max-w-7xl px-6">
 
         {/* CTA */}
-        <div className="border-b border-white/10 py-20 md:py-28">
+        <div className="border-b border-black/10 py-20 md:py-28">
 
           <div className="max-w-4xl">
 
-            <p className="mb-5 text-sm font-medium uppercase tracking-[0.25em] text-[#FF69EA]">
+            <p className="mb-5 text-sm font-medium uppercase tracking-[0.25em] text-[#FC6400]">
               ¿Listo para crecer?
             </p>
 
             <h2 className="text-4xl font-bold leading-[1.05] tracking-tight md:text-6xl lg:text-7xl">
               Hagamos que tu marca{" "}
-              <span className="bg-gradient-to-r from-[#FF69EA] via-[#D54BF7] to-[#903BB5] bg-clip-text text-transparent">
+              <span className="
+                bg-gradient-to-l
+                to-[#D73502]
+                via-[#FC6400]
+                from-[#FF7500]
+                bg-clip-text 
+                text-transparent">
                 destaque.
               </span>
             </h2>
 
-            <p className="mt-6 max-w-2xl text-base leading-relaxed text-[#94A3B8] md:text-lg">
+            <p className="mt-6 max-w-2xl text-base leading-relaxed text-[#000000] md:text-lg">
               Transformamos ideas en estrategias, contenido y experiencias
               digitales que ayudan a tu negocio a crecer.
             </p>
@@ -64,7 +70,7 @@ export default function Footer() {
                 items-center
                 gap-3
                 rounded-full
-                bg-[#D54BF7]
+                bg-[#FC6400]
                 px-7
                 py-3.5
                 text-sm
@@ -93,7 +99,7 @@ export default function Footer() {
             >
               <Image
                 src="/images/logo-1.png"
-                alt="Up Studio"
+                alt="Fenix"
                 width={130}
                 height={45}
                 className="absolute inset-0 h-auto w-full opacity-100 transition-opacity duration-500 group-hover:opacity-0"
@@ -101,14 +107,14 @@ export default function Footer() {
 
               <Image
                 src="/images/logo-2.png"
-                alt="Up Studio"
+                alt="Fenix"
                 width={130}
                 height={45}
                 className="absolute inset-0 h-auto w-full opacity-0 transition-opacity duration-500 group-hover:opacity-100"
               />
             </Link>
 
-            <p className="mt-6 max-w-md text-sm leading-7 text-[#94A3B8]">
+            <p className="mt-6 max-w-md text-sm leading-7 text-[#000000]">
               Marketing, contenido y estrategia para marcas que quieren
               conectar, destacar y crecer.
             </p>
@@ -123,12 +129,12 @@ export default function Footer() {
                   rounded-full
                   border border-white/10
                   bg-white/[0.03]
-                  text-[#CBD5E1]
+                  text-[#000000]
                   transition-all duration-300
                   hover:-translate-y-1
-                  hover:border-[#FF69EA]/40
-                  hover:bg-[#FF69EA]/10
-                  hover:text-[#FF69EA]
+                  hover:border-[#FC6400]/40
+                  hover:bg-[#FC6400]/10
+                  hover:text-[#FC6400]
                 "
               >
                 <InstagramFilled  size={18} />
@@ -142,12 +148,12 @@ export default function Footer() {
                   rounded-full
                   border border-white/10
                   bg-white/[0.03]
-                  text-[#CBD5E1]
+                  text-[#000000]
                   transition-all duration-300
                   hover:-translate-y-1
-                  hover:border-[#FF69EA]/40
-                  hover:bg-[#FF69EA]/10
-                  hover:text-[#FF69EA]
+                  hover:border-[#FC6400]/40
+                  hover:bg-[#FC6400]/10
+                  hover:text-[#FC6400]
                 "
               >
                 <FacebookFilled  size={18} />
@@ -161,12 +167,12 @@ export default function Footer() {
                   rounded-full
                   border border-white/10
                   bg-white/[0.03]
-                  text-[#CBD5E1]
+                  text-[#000000]
                   transition-all duration-300
                   hover:-translate-y-1
-                  hover:border-[#FF69EA]/40
-                  hover:bg-[#FF69EA]/10
-                  hover:text-[#FF69EA]
+                  hover:border-[#FC6400]/40
+                  hover:bg-[#FC6400]/10
+                  hover:text-[#FC6400]
                 "
               >
                 <LinkedinFilled  size={18} />
@@ -189,10 +195,10 @@ export default function Footer() {
                       items-center
                       gap-0
                       text-sm
-                      text-[#94A3B8]
+                      text-[#000000]
                       transition-all
                       duration-300
-                      hover:text-white
+                      hover:text-black
                     "
                   >
                     {item.label}
@@ -207,7 +213,7 @@ export default function Footer() {
                         group-hover:ml-1.5
                         group-hover:w-3.5
                         group-hover:opacity-100
-                        group-hover:text-[#FF69EA]
+                        group-hover:text-[#FC6400]
                       "
                     />
                   </Link>
@@ -217,7 +223,7 @@ export default function Footer() {
           </div>
 
           <div>
-            <h3 className="mb-5 text-sm font-semibold uppercase tracking-wider text-white">
+            <h3 className="mb-5 text-sm font-semibold uppercase tracking-wider text-black">
               Contacto
             </h3>
 
@@ -226,11 +232,11 @@ export default function Footer() {
               <li>
                 <a
                   href="mailto:email@upstudio.com"
-                  className="group flex items-start gap-3 text-sm text-[#94A3B8] transition-colors duration-300 hover:text-white"
+                  className="group flex items-start gap-3 text-sm text-[#000000] transition-colors duration-300 hover:text-black"
                 >
                   <MailOutlined
                     size={18}
-                    className="mt-0.5 shrink-0 text-[#D54BF7]"
+                    className="mt-0.5 shrink-0 text-[#FC6400]"
                   />
 
                   <span>
@@ -242,11 +248,11 @@ export default function Footer() {
               <li>
                 <a
                   href="tel:+51999999999"
-                  className="group flex items-start gap-3 text-sm text-[#94A3B8] transition-colors duration-300 hover:text-white"
+                  className="group flex items-start gap-3 text-sm text-[#000000] transition-colors duration-300 hover:text-black"
                 >
                   <PhoneOutlined
                     size={18}
-                    className="mt-0.5 shrink-0 text-[#D54BF7]"
+                    className="mt-0.5 shrink-0 text-[#FC6400]"
                   />
 
                   <span>
@@ -255,10 +261,10 @@ export default function Footer() {
                 </a>
               </li>
 
-              <li className="flex items-start gap-3 text-sm text-[#94A3B8]">
+              <li className="flex items-start gap-3 text-sm text-[#000000]">
                 <EnvironmentOutlined
                   size={18}
-                  className="mt-0.5 shrink-0 text-[#D54BF7]"
+                  className="mt-0.5 shrink-0 text-[#FC6400]"
                 />
 
                 <span>
@@ -273,20 +279,20 @@ export default function Footer() {
         <div className="flex flex-col gap-4 border-t border-white/10 py-6 text-xs text-[#64748B] md:flex-row md:items-center md:justify-between">
 
           <p>
-            © {new Date().getFullYear()} Up Studio. Todos los derechos reservados.
+            © {new Date().getFullYear()} Fenix. Todos los derechos reservados.
           </p>
 
           <div className="flex gap-6">
             <Link
               href="#"
-              className="transition-colors duration-300 hover:text-[#CBD5E1]"
+              className="transition-colors duration-300 hover:text-[#000000]"
             >
               Política de privacidad
             </Link>
 
             <Link
               href="#"
-              className="transition-colors duration-300 hover:text-[#CBD5E1]"
+              className="transition-colors duration-300 hover:text-[#000000]"
             >
               Términos y condiciones
             </Link>

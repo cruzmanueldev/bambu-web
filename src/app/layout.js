@@ -15,8 +15,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Up Studio",
-  description: "Up Studio Marketing",
+  title: "Fenix",
+  description: "Fenix Marketing",
 };
 
 export default function RootLayout({ children }) {

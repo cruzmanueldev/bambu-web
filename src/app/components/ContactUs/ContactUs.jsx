@@ -35,16 +35,16 @@ export default function OurWork() {
   console.log(inputsRef.current);
 
   return (
-    <main className="min-h-screen bg-gray-900 flex items-center justify-center px-6 py-16 overflow-hidden">
+    <main className="min-h-screen bg-white flex items-center justify-center px-6 py-16 overflow-hidden">
       <div className="max-w-6xl w-full grid md:grid-cols-2 gap-16 items-center">
 
         {/* Texto */}
         <div ref={titleRef}>
-          <h1 className="text-4xl md:text-5xl font-bold text-white leading-tight">
+          <h1 className="text-4xl md:text-5xl font-bold text-black leading-tight">
             Es hora de cambiar el rumbo de tu empresa.
           </h1>
 
-          <p className="mt-6 text-lg text-white leading-relaxed">
+          <p className="mt-6 text-lg text-black leading-relaxed">
             Dale una nueva dirección hacia el crecimiento. Cuéntanos sobre tu
             negocio y uno de nuestros especialistas se pondrá en contacto contigo
             para brindarte una asesoría personalizada.
@@ -101,7 +101,7 @@ export default function OurWork() {
             <button
               ref={buttonRef}
               type="submit"
-              className="w-full bg-[#D54BF7] transition-colors text-white font-semibold py-3 rounded-xl cursor-pointer"
+              className="w-full bg-[#FC6400] transition-colors text-white font-semibold py-3 rounded-xl cursor-pointer"
             >
               Solicitar asesoría
             </button>

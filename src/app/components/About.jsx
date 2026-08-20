@@ -39,7 +39,7 @@ export default function About() {
         relative
         min-h-screen
         overflow-hidden
-        bg-[#111828]
+        bg-[#FFFFFF]
         px-6
         py-24
         md:px-12
@@ -76,7 +76,7 @@ export default function About() {
       <div className="relative z-10 mx-auto flex min-h-[calc(100vh-12rem)] max-w-7xl flex-col justify-center">
 
         <div className="about-label mb-8 flex items-center gap-4">
-          <div className="flex items-center gap-2 text-[#FF69EA]">
+          <div className="flex items-center gap-2 text-[#FC6400]">
             <span className="text-sm font-medium uppercase tracking-[0.3em]">
               Nosotros
             </span>
@@ -91,7 +91,7 @@ export default function About() {
             font-bold
             leading-[1.05]
             tracking-tight
-            text-white
+            text-black
             md:text-6xl
             lg:text-7xl
             xl:text-8xl
@@ -99,10 +99,10 @@ export default function About() {
         >
           <span
             className="
-              bg-gradient-to-r
-              from-[#FF69EA]
-              via-[#D54BF7]
-              to-[#903BB5]
+              bg-gradient-to-l
+              to-[#D73502]
+              via-[#FC6400]
+              from-[#FF7500]
               bg-clip-text
               text-transparent
             "
@@ -116,18 +116,18 @@ export default function About() {
 
         {/* Descripción */}
         <div className="about-description mt-10 flex max-w-3xl flex-col gap-6">
-          <p className="text-lg leading-relaxed text-[#CBD5E1] md:text-xl">
+          <p className="text-lg leading-relaxed text-[#000000] md:text-xl">
             Desde el estudio de viabilidad hasta la captación de clientes.
           </p>
-          <p className="text-lg leading-relaxed text-[#CBD5E1] md:text-xl">
+          <p className="text-lg leading-relaxed text-[#000000] md:text-xl">
             Somos una agencia de marketing que ayuda a pequeñas, medianas y
             grandes empresas a{" "}
-            <span className="font-semibold text-white">
+            <span className="font-semibold text-black">
               vender más, conectar mejor y crecer.
             </span>
           </p>
 
-          <p className="text-base leading-relaxed text-white/50 md:text-lg">
+          <p className="text-base leading-relaxed text-black md:text-lg">
             Combinamos contenido profesional, estrategia, creatividad y
             presencia digital para construir marcas que no pasan
             desapercibidas.
@@ -144,38 +144,38 @@ export default function About() {
               overflow-hidden
               rounded-2xl
               border
-              border-white/10
+              border-black/10
               bg-white/[0.03]
               p-6
               transition-all
               duration-500
               hover:-translate-y-1
-              hover:border-[#FF69EA]/30
+              hover:border-[#FC6400]/30
               hover:bg-white/[0.05]
             "
           >
             <div className="mb-8 flex items-center justify-between">
-              <span className="text-sm text-[#FF69EA]">
+              <span className="text-sm text-[#FC6400]">
                 01
               </span>
 
               <Plus
                 size={18}
                 className="
-                  text-white/30
+                  text-black/30
                   transition-transform
                   duration-500
                   group-hover:rotate-90
-                  group-hover:text-[#FF69EA]
+                  group-hover:text-[#FC6400]
                 "
               />
             </div>
 
-            <h3 className="text-xl font-semibold text-white">
+            <h3 className="text-xl font-semibold text-black">
               Nos cuentas tu idea
             </h3>
 
-            <p className="mt-3 text-sm leading-relaxed text-[#94A3B8]">
+            <p className="mt-3 text-sm leading-relaxed text-[#000000]">
               Conocemos tu proyecto, objetivos y situación.
             </p>
           </div>
@@ -188,38 +188,38 @@ export default function About() {
               overflow-hidden
               rounded-2xl
               border
-              border-white/10
+              border-black/10
               bg-white/[0.03]
               p-6
               transition-all
               duration-500
               hover:-translate-y-1
-              hover:border-[#D54BF7]/30
+              hover:border-[#FC6400]/30
               hover:bg-white/[0.05]
             "
           >
             <div className="mb-8 flex items-center justify-between">
-              <span className="text-sm text-[#D54BF7]">
+              <span className="text-sm text-[#FC6400]">
                 02
               </span>
 
               <Plus
                 size={18}
                 className="
-                  text-white/30
+                  text-black/30
                   transition-transform
                   duration-500
                   group-hover:rotate-90
-                  group-hover:text-[#D54BF7]
+                  group-hover:text-[#FC6400]
                 "
               />
             </div>
 
-            <h3 className="text-xl font-semibold text-white">
+            <h3 className="text-xl font-semibold text-black">
               Analizamos
             </h3>
 
-            <p className="mt-3 text-sm leading-relaxed text-[#94A3B8]">
+            <p className="mt-3 text-sm leading-relaxed text-[#000000]">
               Estudiamos mercado, competencia, clientes y viabilidad económica.
             </p>
           </div>
@@ -232,7 +232,7 @@ export default function About() {
               overflow-hidden
               rounded-2xl
               border
-              border-white/10
+              border-black/10
               bg-white/[0.03]
               p-6
               transition-all
@@ -250,7 +250,7 @@ export default function About() {
               <Plus
                 size={18}
                 className="
-                  text-white/30
+                  text-black/30
                   transition-transform
                   duration-500
                   group-hover:rotate-90
@@ -259,11 +259,11 @@ export default function About() {
               />
             </div>
 
-            <h3 className="text-xl font-semibold text-white">
+            <h3 className="text-xl font-semibold text-black">
               Te presentamos las conclusiones
             </h3>
 
-            <p className="mt-3 text-sm leading-relaxed text-[#94A3B8]">
+            <p className="mt-3 text-sm leading-relaxed text-[#000000]">
               Te entregamos el estudio y te explicamos nuestras conclusiones y recomendaciones.
             </p>
           </div>
@@ -276,7 +276,7 @@ export default function About() {
               overflow-hidden
               rounded-2xl
               border
-              border-white/10
+              border-black/10
               bg-white/[0.03]
               p-6
               transition-all
@@ -294,7 +294,7 @@ export default function About() {
               <Plus
                 size={18}
                 className="
-                  text-white/30
+                  text-black/30
                   transition-transform
                   duration-500
                   group-hover:rotate-90
@@ -303,11 +303,11 @@ export default function About() {
               />
             </div>
 
-            <h3 className="text-xl font-semibold text-white">
+            <h3 className="text-xl font-semibold text-black">
               Si quieres, seguimos contigo
             </h3>
 
-            <p className="mt-3 text-sm leading-relaxed text-[#94A3B8]">
+            <p className="mt-3 text-sm leading-relaxed text-[#000000]">
               Podemos ayudarte a desarrollar la web, crear la estrategia de marketing y poner en marcha el proyecto. Esto último es importante porque deja claro que el marketing es opcional.
             </p>
           </div>
@@ -326,7 +326,7 @@ export default function About() {
               justify-center
               gap-0
               rounded-full
-              bg-[#D54BF7]
+              bg-[#FC6400]
               px-7
               py-3
               text-base
